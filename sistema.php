@@ -117,7 +117,7 @@
                                     <th><?php echo $num; ?></th>
                                     <th>
                                         <a href="edit.php?id=<?php echo $row['id']; ?>"><i class="fas fa-edit"></i></a>
-                                        <a href="delete.php?id=<?php echo $row['id']; ?> " onClick="return confirm('Are u sure your are oing to delete this and this action  can not be  undone...')"><i class="fas fa-trash"></i></a>
+                                        <a href="delete.php?id=<?php echo $row['id']; ?> " onClick="return confirm('Tem certeza que deseja deletar? esta acao nao pode ser desfeita...')"><i class="fas fa-trash"></i></a>
                                     </th>
                                     <th><?php echo $row['titulo']; ?></th>
                                     <th><?php echo $row['diretor']; ?></th>
